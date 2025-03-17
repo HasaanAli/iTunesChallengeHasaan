@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		19F8CF5DCE5C96ABD0E5D768 /* Pods_iTunesChallengeHasaanAli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DD6342C0791E9760D2017C /* Pods_iTunesChallengeHasaanAli.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		051EC3132D7FA00A00C09C99 /* iTunesChallengeHasaanAli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesChallengeHasaanAli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F44C782751A5B2F212257A /* Pods-iTunesChallengeHasaanAli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesChallengeHasaanAli.release.xcconfig"; path = "Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli.release.xcconfig"; sourceTree = "<group>"; };
+		29997A06ABE0738D14E1E8C5 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesChallengeHasaanAli.debug.xcconfig"; path = "Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli.debug.xcconfig"; sourceTree = "<group>"; };
+		63DD6342C0791E9760D2017C /* Pods_iTunesChallengeHasaanAli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesChallengeHasaanAli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F8CF5DCE5C96ABD0E5D768 /* Pods_iTunesChallengeHasaanAli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +42,8 @@
 			children = (
 				051EC3152D7FA00A00C09C99 /* iTunesChallengeHasaanAli */,
 				051EC3142D7FA00A00C09C99 /* Products */,
+				436D24F19AADCCE3780D3AF1 /* Pods */,
+				9C9DE067B8A01075ECC45661 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +55,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		436D24F19AADCCE3780D3AF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29997A06ABE0738D14E1E8C5 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */,
+				24F44C782751A5B2F212257A /* Pods-iTunesChallengeHasaanAli.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C9DE067B8A01075ECC45661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63DD6342C0791E9760D2017C /* Pods_iTunesChallengeHasaanAli.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,9 +79,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 051EC3212D7FA00E00C09C99 /* Build configuration list for PBXNativeTarget "iTunesChallengeHasaanAli" */;
 			buildPhases = (
+				2C3B51C60546E70A7B4B8D50 /* [CP] Check Pods Manifest.lock */,
 				051EC30F2D7FA00A00C09C99 /* Sources */,
 				051EC3102D7FA00A00C09C99 /* Frameworks */,
 				051EC3112D7FA00A00C09C99 /* Resources */,
+				B150CE3158FDC755D5E4E83C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -64,8 +93,6 @@
 				051EC3152D7FA00A00C09C99 /* iTunesChallengeHasaanAli */,
 			);
 			name = iTunesChallengeHasaanAli;
-			packageProductDependencies = (
-			);
 			productName = iTunesChallengeHasaanAli;
 			productReference = 051EC3132D7FA00A00C09C99 /* iTunesChallengeHasaanAli.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +140,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C3B51C60546E70A7B4B8D50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunesChallengeHasaanAli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B150CE3158FDC755D5E4E83C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		051EC30F2D7FA00A00C09C99 /* Sources */ = {
@@ -162,7 +231,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -225,7 +294,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -246,6 +315,7 @@
 		};
 		051EC3222D7FA00E00C09C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29997A06ABE0738D14E1E8C5 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -258,8 +328,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -275,6 +347,7 @@
 		};
 		051EC3232D7FA00E00C09C99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F44C782751A5B2F212257A /* Pods-iTunesChallengeHasaanAli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -287,8 +360,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,7 +11,7 @@ import SwiftUI
 struct iTunesChallengeHasaanAliApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            iTunesMoviesScreen()
         }
     }
 }
