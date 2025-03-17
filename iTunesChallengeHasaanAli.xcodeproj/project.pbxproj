@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19F8CF5DCE5C96ABD0E5D768 /* Pods_iTunesChallengeHasaanAli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DD6342C0791E9760D2017C /* Pods_iTunesChallengeHasaanAli.framework */; };
+		6701731C21016ED7DF31E0AD /* Pods_iTunesChallengeHasaanAli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14FD0E7541A9F285E61EB38 /* Pods_iTunesChallengeHasaanAli.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		051EC3132D7FA00A00C09C99 /* iTunesChallengeHasaanAli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesChallengeHasaanAli.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24F44C782751A5B2F212257A /* Pods-iTunesChallengeHasaanAli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesChallengeHasaanAli.release.xcconfig"; path = "Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli.release.xcconfig"; sourceTree = "<group>"; };
-		29997A06ABE0738D14E1E8C5 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesChallengeHasaanAli.debug.xcconfig"; path = "Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli.debug.xcconfig"; sourceTree = "<group>"; };
-		63DD6342C0791E9760D2017C /* Pods_iTunesChallengeHasaanAli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesChallengeHasaanAli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96698115986ABCEAD93B0728 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesChallengeHasaanAli.debug.xcconfig"; path = "Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli.debug.xcconfig"; sourceTree = "<group>"; };
+		B14FD0E7541A9F285E61EB38 /* Pods_iTunesChallengeHasaanAli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesChallengeHasaanAli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54AAB7A14E00BC3118DFA75 /* Pods-iTunesChallengeHasaanAli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesChallengeHasaanAli.release.xcconfig"; path = "Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		051EC3152D7FA00A00C09C99 /* iTunesChallengeHasaanAli */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = iTunesChallengeHasaanAli;
 			sourceTree = "<group>";
 		};
@@ -30,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F8CF5DCE5C96ABD0E5D768 /* Pods_iTunesChallengeHasaanAli.framework in Frameworks */,
+				6701731C21016ED7DF31E0AD /* Pods_iTunesChallengeHasaanAli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +45,7 @@
 				051EC3152D7FA00A00C09C99 /* iTunesChallengeHasaanAli */,
 				051EC3142D7FA00A00C09C99 /* Products */,
 				436D24F19AADCCE3780D3AF1 /* Pods */,
-				9C9DE067B8A01075ECC45661 /* Frameworks */,
+				F779783BDA3C4F5735279EC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +60,16 @@
 		436D24F19AADCCE3780D3AF1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29997A06ABE0738D14E1E8C5 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */,
-				24F44C782751A5B2F212257A /* Pods-iTunesChallengeHasaanAli.release.xcconfig */,
+				96698115986ABCEAD93B0728 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */,
+				E54AAB7A14E00BC3118DFA75 /* Pods-iTunesChallengeHasaanAli.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9C9DE067B8A01075ECC45661 /* Frameworks */ = {
+		F779783BDA3C4F5735279EC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63DD6342C0791E9760D2017C /* Pods_iTunesChallengeHasaanAli.framework */,
+				B14FD0E7541A9F285E61EB38 /* Pods_iTunesChallengeHasaanAli.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,11 +81,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 051EC3212D7FA00E00C09C99 /* Build configuration list for PBXNativeTarget "iTunesChallengeHasaanAli" */;
 			buildPhases = (
-				2C3B51C60546E70A7B4B8D50 /* [CP] Check Pods Manifest.lock */,
+				FB83A927E1F9FC80AFA72576 /* [CP] Check Pods Manifest.lock */,
 				051EC30F2D7FA00A00C09C99 /* Sources */,
 				051EC3102D7FA00A00C09C99 /* Frameworks */,
 				051EC3112D7FA00A00C09C99 /* Resources */,
-				B150CE3158FDC755D5E4E83C /* [CP] Embed Pods Frameworks */,
+				6C163FF0670BB958C4C9E0B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,7 +144,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C3B51C60546E70A7B4B8D50 /* [CP] Check Pods Manifest.lock */ = {
+		6C163FF0670BB958C4C9E0B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB83A927E1F9FC80AFA72576 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,23 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B150CE3158FDC755D5E4E83C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunesChallengeHasaanAli/Pods-iTunesChallengeHasaanAli-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -315,7 +317,7 @@
 		};
 		051EC3222D7FA00E00C09C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29997A06ABE0738D14E1E8C5 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */;
+			baseConfigurationReference = 96698115986ABCEAD93B0728 /* Pods-iTunesChallengeHasaanAli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,7 +349,7 @@
 		};
 		051EC3232D7FA00E00C09C99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24F44C782751A5B2F212257A /* Pods-iTunesChallengeHasaanAli.release.xcconfig */;
+			baseConfigurationReference = E54AAB7A14E00BC3118DFA75 /* Pods-iTunesChallengeHasaanAli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
