@@ -1,5 +1,10 @@
 ⚙️ **Tech Stack:** SwiftUI, Combine, MVVM, Repository pattern, RealmDB, Alamofire
 
+🎬 **App Demo** 
+
+https://drive.google.com/file/d/14zq4gwHhCsQRMCGMyifVutjfs7k4k2Cn/view?usp=sharing
+
+
 ## About App:
 
 Search through iTunes Movies. It shows master view and detail view, and allows to mark favorite. Favorite movies info are available offline.
