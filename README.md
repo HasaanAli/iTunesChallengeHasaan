@@ -28,13 +28,13 @@ It uses following Tech stack:
 
 **Design**
 
-_Main View Heirarchy_
+**_Main View Heirarchy:_**
 
 - MainScreen
     - FavoritesView/VM
     - SearchList/VM 
     
-_Communication flow_
+**_Communication flow:_**
 
  Symbol <-> below means "talks to"
  
