@@ -1,17 +1,23 @@
-****sd****
-**Design Patterns**
+**Tech Stack: SwiftUI, Combine, MVVM, Repository pattern, RealmDB, Alamofire**
 
-**MVVM**
+## About App:
+
+Search through iTunes Movies. It shows master view and detail view, and allows to mark favorite. Favorite movies info are available offline.
+
+
+## Design Patterns
+
+### MVVM
 
 It is a UI design pattern (not an architecture) that helps separate UI and related logic into View and ViewModel. View talks to VM, VM processes UI events and provides data to View.
 
-**Repository Pattern**
+### Repository Pattern
 
 It helps encapsulate different datasources of a one/more entities and provides single interface to other app components that need that data. 
 It also contains logic of when to use which data source: e.g, use local data when offline else fetch remote.
     
 
-**Tech Stack**
+### Tech Stack
      
 It uses following Tech stack:
 - UI: SwiftUI
@@ -26,19 +32,19 @@ It uses following Tech stack:
 - Git
 
 
-**Design**
+### Code Structure
 
-**_Main View Heirarchy:_**
+**Main Screen breakdown:**
 
 - MainScreen
     - FavoritesView/VM
     - SearchList/VM 
     
-**_Communication flow:_**
+**Communication flow:**
 
- Symbol <-> below means "talks to"
+ `Symbol <-> below means "talks to"`
  
-- View <-> VM <-> Repository/Manager
+- View <talks to> VM <-> Repository/Manager
 - Repository <-> API/DB
 
 <End>
