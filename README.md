@@ -1,4 +1,4 @@
-**Tech Stack: SwiftUI, Combine, MVVM, Repository pattern, RealmDB, Alamofire**
+⚙️ **Tech Stack:** SwiftUI, Combine, MVVM, Repository pattern, RealmDB, Alamofire
 
 ## About App:
 
