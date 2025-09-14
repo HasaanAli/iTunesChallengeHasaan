@@ -2,14 +2,11 @@
 **Design Patterns**
 
 *MVVM*
-   It is a UI design pattern (not an architecture) that helps separate UI and related logic into View and 
-    ViewModel. View talks to VM, VM processes UI events and provides data to View.
+It is a UI design pattern (not an architecture) that helps separate UI and related logic into View and ViewModel. View talks to VM, VM processes UI events and provides data to View.
 
 *Repository Pattern*
-    It helps encapsulate different datasources of a one/more entities and provides single interface to 
-    other app components that need that data. 
-    
-    It also contains logic of when to use which data source: e.g, use local data when offline else fetch remote.
+It helps encapsulate different datasources of a one/more entities and provides single interface to other app components that need that data. 
+It also contains logic of when to use which data source: e.g, use local data when offline else fetch remote.
     
 
 **Tech Stack**
